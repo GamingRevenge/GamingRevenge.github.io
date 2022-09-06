@@ -10,7 +10,7 @@
     height: 70px;
 }
 
-.navbar_item, .navbar_item * {
+.navbar_item {
     padding-block: 10px;
     padding-inline: 25px;
     border-radius: 5px;
