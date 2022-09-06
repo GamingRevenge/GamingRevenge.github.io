@@ -5,16 +5,16 @@ const Navbar = () => {
   return (
     <div className={styles.wrapper}>
       <Link href="/" className={styles.navbar_item}>
-        Home
+        <p className={styles.navbar_item}>Home</p>
       </Link>
       <Link href="/mitglieder" className={styles.navbar_item}>
-        Mitglieder
+        <p className={styles.navbar_item}>Mitglieder</p>
       </Link>
       <Link href="/" className={styles.navbar_item}>
-        Gallerie
+        <p className={styles.navbar_item}>Gallerie</p>
       </Link>
       <Link href="/impressum" className={styles.navbar_item}>
-        Impressum
+        <p className={styles.navbar_item}>Impressum</p>
       </Link>
     </div>
   );
