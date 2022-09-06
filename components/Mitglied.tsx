@@ -12,7 +12,7 @@ const Mitglied = ({ image, name, description }: Props) => {
     <>
       <div className={styles.wrapper}>
         <div className={styles.image}>
-          <Image width={140} height={180} src={image} />
+          <Image width={140} height={180} src={image} alt="" />
         </div>
         <h1 className={styles.name}>{name}</h1>
         <p className={styles.description}>{description}</p>
