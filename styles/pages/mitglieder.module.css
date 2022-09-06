@@ -1,0 +1,22 @@
+.wrapper {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    text-decoration: underline rgb(150, 50, 60);
+    font-style: italic;
+    font-family: Georgia;
+    padding-bottom: 60px;
+}
+
+.mitglieder {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

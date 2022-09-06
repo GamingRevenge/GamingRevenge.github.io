@@ -1,0 +1,9 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(40, 40, 40);
+  user-select: none;
+  font-family: 'Comfortaa';
+}
+
