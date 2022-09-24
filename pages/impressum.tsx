@@ -6,9 +6,15 @@ const Impressum = () => {
     <>
       <Navbar />
       <div className={styles.wrapper}>
-        <h1 className={styles.title}>Impressum der Nüsser Prachtkerle</h1>
-        <p className={styles.text}>Test 2 dieser Text wird noch bearbeitet</p>
+        <h1 className={styles.title}>
+          {" "}
+          <em> Impressum der Nüsser Prachtkerle </em>{" "}
+        </h1>
+        <p className={styles.text}>
+          <strong> Hierrüber können sie zu uns Kontakt Aufnehmen </strong>{" "}
+        </p>
       </div>
+      <div></div>
     </>
   );
 };
